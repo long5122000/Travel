@@ -123,7 +123,7 @@ const videoFile = document.getElementById('video-file'),
     /* Scroll reveal animation */
     const sr = ScrollReveal({
         distance: '60px',
-        duration: 1500,
+        duration: 1000,
         reset: false,
     })
     sr.reveal(`.home__data, .home__social-link, .home__info,.discover__container, .experience__data, .experience__overlay, .place__card, .sponsor__content, .footer__data, .footer__rights `,{
