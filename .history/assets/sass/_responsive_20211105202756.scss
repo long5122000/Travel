@@ -1,0 +1,27 @@
+@media screen and (max-width: 340px) {
+  .home {
+    &__info {
+      padding: 1rem;
+      width: 190px;
+    }
+  }
+  .place {
+    &__container {
+      grid-template-columns: max-content;
+      justify-content: center;
+    }
+  }
+  .experience {
+    &__content {
+      padding: 0;
+    }
+    &__overlay {
+      &:nth-child(1) {
+        width: 190px;
+      }
+      &:nth-child(2) {
+        width: 80px;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.sponsor {
+  &__container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: center;
+    row-gap: 3.5rem;
+  }
+}

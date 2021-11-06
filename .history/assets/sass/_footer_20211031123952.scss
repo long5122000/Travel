@@ -1,0 +1,12 @@
+.footer {
+  &__container {
+    row-gap: 5rem;
+  }
+  &__content {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+  &__titles,
+  &__subtitle {
+    font-size: var(--h3-font-size);
+  }
+}

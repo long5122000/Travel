@@ -1,0 +1,18 @@
+.place {
+  &__card,
+  &__img {
+    height: 230px;
+  }
+  &__container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+  }
+  &__card {
+    position: relative;
+    overflow: var(--img-hidden);
+  }
+  &__content,
+  &__title {
+    color: var(--white-text);
+  }
+}

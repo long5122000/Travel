@@ -1,0 +1,45 @@
+@media screen and (max-width: 340px) {
+  .home {
+    &__info {
+      padding: 1rem;
+      width: 190px;
+    }
+  }
+  .place {
+    &__container {
+      grid-template-columns: max-content;
+      justify-content: center;
+    }
+  }
+  .experience {
+    &__content {
+      padding: 0;
+    }
+    &__overlay {
+      &:nth-child(1) {
+        width: 190px;
+      }
+      &:nth-child(2) {
+        width: 80px;
+      }
+    }
+    &_img {
+      padding: 0;
+    }
+  }
+  .video {
+    &__container {
+      padding: 0;
+    }
+  }
+}
+/* For medium devices */
+@media oscreen and (min-width: 568px) {
+  .video {
+    &__container {
+      display: grid;
+      grid-template-columns: 0.6fr;
+      justify-content: center;
+    }
+  }
+}

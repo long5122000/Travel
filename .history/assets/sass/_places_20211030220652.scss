@@ -1,0 +1,10 @@
+.place {
+  &__card,
+  &__img {
+    height: 230px;
+  }
+  &__content {
+    grid-template-columns: repeat (2, max-content);
+    justify-content: center;
+  }
+}

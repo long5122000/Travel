@@ -1,0 +1,23 @@
+.about {
+  &__data {
+    text-align: center;
+  }
+  &__container {
+    row-gap: 2.5rem;
+  }
+  &__description {
+    margin-bottom: var(--mb-2);
+  }
+  &__img {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    &-overlay {
+      overflow: var(--img-hidden);
+    }
+    &-one {
+      width: 130px;
+    }
+  }
+}

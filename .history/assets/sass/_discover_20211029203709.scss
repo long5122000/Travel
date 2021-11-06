@@ -1,0 +1,11 @@
+.discover {
+  &__card {
+    position: relative;
+    width: 200px;
+    overflow: var(--img-hidden);
+  }
+  &__data {
+    position: absolute;
+    bottom: 1.5rem;
+  }
+}
