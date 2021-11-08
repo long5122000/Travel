@@ -312,7 +312,7 @@
   }
   .home {
     &__container {
-      row-gap: 0.6rem;
+      row-gap: unset;
     }
     // &__data {
     //   &-title {
@@ -324,16 +324,14 @@
 @media screen and (max-height: 441px) {
   .home {
     &__social {
-      margin-bottom: 0rem;
+      margin-bottom: 0;
     }
   }
 }
 @media screen and (max-height: 320px) {
-  .home {
-    &__data {
-      &-title {
-        font-size: var(--h1-font-size);
-      }
+  &__data {
+    &-title {
+      font-size: var(--h1-font-size);
     }
   }
 }

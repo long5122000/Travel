@@ -697,6 +697,11 @@ input {
 }
 /* For medium devices */
 @media screen and (min-width: 568px) {
+  .home__social {
+    flex-direction: row;
+    column-gap: 1.5rem;
+  }
+
   .video__container {
     display: grid;
     grid-template-columns: 0.6fr;
@@ -778,6 +783,7 @@ input {
   }
   .home__data {
     align-self: flex-end;
+    padding-top: 4rem;
   }
   .home__social {
     flex-direction: row;
@@ -934,6 +940,20 @@ input {
   }
   .nav__dark {
     bottom: 1.5rem;
+  }
+
+  .home__container {
+    row-gap: 0.6rem;
+  }
+}
+@media screen and (max-height: 441px) {
+  .home__social {
+    margin-bottom: 0rem;
+  }
+}
+@media screen and (max-height: 320px) {
+  .home__data-title {
+    font-size: var(--h1-font-size);
   }
 }
 

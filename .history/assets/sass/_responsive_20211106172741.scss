@@ -36,9 +36,8 @@
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .home {
-    &__social {
-      flex-direction: row;
-      column-gap: 1.5rem;
+    &__data {
+      align-self: flex-end;
     }
   }
   .video {
@@ -308,32 +307,6 @@
     }
     &__dark {
       bottom: 1.5rem;
-    }
-  }
-  .home {
-    &__container {
-      row-gap: 0.6rem;
-    }
-    // &__data {
-    //   &-title {
-    //     font-size: var(--h1-font-size);
-    //   }
-    // }
-  }
-}
-@media screen and (max-height: 441px) {
-  .home {
-    &__social {
-      margin-bottom: 0rem;
-    }
-  }
-}
-@media screen and (max-height: 320px) {
-  .home {
-    &__data {
-      &-title {
-        font-size: var(--h1-font-size);
-      }
     }
   }
 }
